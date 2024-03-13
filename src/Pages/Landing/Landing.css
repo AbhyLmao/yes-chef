@@ -74,7 +74,7 @@ color: #edd3c5;
   padding: 16px 24px;
   text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  transition: all 1s cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
 }
 
@@ -84,7 +84,7 @@ color: #edd3c5;
 
 .button-28:hover {
   color: #fff;
-  background-color: #1A1A1A;
+  background-color: var(--text6);
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
