@@ -7,6 +7,8 @@ import Landing from "./Pages/Landing/Landing";
 import Login from "./Pages/Login/Login";
 import CreateAccount from "./Pages/CreateAccount/CreateAccount";
 import Test from "./Pages/testpages/Test";
+import SettingsPage from "./Pages/SettingsPage/SettingsPage";
+import Profile from "./Pages/Profile/Profile";
 
 
 
@@ -20,6 +22,8 @@ root.render(
         <Route path="/login" element={<Login />} />
         <Route path="/createaccount" element={<CreateAccount/>} />
         <Route path="/test" element={<Test/>} />
+        <Route path="/settings" element={<SettingsPage/>} />
+        <Route path="/Profile" element={<Profile />} />
       </Routes>
     </Router>
   </React.StrictMode>

@@ -9,7 +9,8 @@ function App() {
       <div>
         <Route path="/" exact component={Landing} />
         {/* <Route path="/login" component={Login} />
-        <Route path="/createaccount" component={CreateAccount} /> */}
+        <Route path="/createaccount" component={CreateAccount} />
+        <Route path="/settings" element={<SettingsPage/>} /> */}
       </div>
     </Router>
   );

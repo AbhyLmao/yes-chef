@@ -13,7 +13,7 @@ function Header() {
           <div><Link to="/createaccount" className="button-28">Home</Link></div>
           <div><Link to="/createaccount" className="button-28">Search</Link></div>
           <div><Link to="/createaccount" className="button-28">Profile</Link></div>
-          <div><Link to="/createaccount" className="button-28">Settings</Link></div>
+          <div><Link to="/settings" className="button-28">Settings</Link></div>
         </div>
       </div>
 
